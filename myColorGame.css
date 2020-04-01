@@ -73,7 +73,7 @@ button:hover {
   background-color: steelblue;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 15px;
   }
@@ -88,12 +88,7 @@ button:hover {
   #message {
     width: 12%;
     padding-right: 8px;
-    font-size: 8px;
-    font-weight: 500;
-  }
-}
-@media (max-width: 500px) {
-  h1 {
-    font-size: 20px;
+    font-size: 10px;
+    font-weight: 600;
   }
 }
