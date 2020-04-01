@@ -33,7 +33,7 @@ h1 {
 #stripe {
   background-color: white;
   text-align: center;
-  min-height: 30px;
+  min-height: 25px;
   color: black;
 }
 
@@ -74,16 +74,22 @@ button:hover {
 }
 
 @media (max-width: 400px) {
-  #stripe {
-    padding: 0;
-    margin: 0;
-    font-size: 12px;
-  }
   h1 {
     font-size: 15px;
   }
   #colorDisplay {
     font-size: 30px;
+  }
+  button {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  #message {
+    width: 12%;
+    padding-right: 8px;
+    font-size: 8px;
+    font-weight: 500;
   }
 }
 @media (max-width: 500px) {
